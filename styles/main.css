@@ -2,3 +2,11 @@ p {
 color: rgb(255, 0, 212);
 
 }
+.important {
+    color: green
+}
+
+.cool {
+    background: burlywood;
+    border: blue solid
+}
