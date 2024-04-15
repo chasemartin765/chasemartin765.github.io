@@ -71,6 +71,7 @@
 
 .fading-gallery img {
     width: 100px;
+    opacity: .6;
     height: 100px;
     object-fit: cover;
 }
