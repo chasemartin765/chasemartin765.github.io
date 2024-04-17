@@ -18,7 +18,7 @@
 }
 .animated-nav-menu a:hover{
     background-color: #00ff9d;
-    color: green
+    color: green;
     transition: background-color 0.5;
 }
 .animated-nav-menu a {
