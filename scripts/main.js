@@ -49,6 +49,7 @@ let sum2 = [];
 for (let i = 1; i <= 10; i++) {
     sum2.push(i * i * i);
 }
+console.log(sum2);
 
 
 console.log("Task 9");
