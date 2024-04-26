@@ -53,19 +53,19 @@ console.log(sum2);
 
 
 console.log("Task 9");
-let fibonacciNumbers = [];
-fibonacciNumbers[0] = 0;
-fibonacciNumbers[1] = 1;
+let fibonacci = [];
+fibonacci[0] = 0;
+fibonacci[1] = 1;
 for (let i = 2; i < 10; i++) {
-    fibonacciNumbers[i] = fibonacciNumbers[i - 1] + fibonacciNumbers[i - 2];
+    fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
 }
-console.log(fibonacciNumbers);
+console.log(fibonacci);
 
 
 console.log("Task 10");
-let reversedArr = [];
+let reverseArr = [];
 for (let i = arr.length - 1; i >= 0; i--) {
-    reversedArr.push(arr[i]);
+    reverseArr.push(arr[i]);
 }
-console.log(reversedArr);
+console.log(reverseArr);
 
