@@ -5,6 +5,6 @@ colors.forEach(color => {
     li.innerText = color;
     li.style.color = color;
     ul.appendChild(li);
- });
+ } );
  document.body.appendChild(ul);
  
