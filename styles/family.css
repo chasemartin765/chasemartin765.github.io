@@ -33,4 +33,8 @@ a:hover {
     transform:scale(1.25);
     transform:translateY(-25px);
     box-shadow: 10px 10px 5px #FFCF56;
+    transition:1.5s ease-in-out;
 }
+
+
+
