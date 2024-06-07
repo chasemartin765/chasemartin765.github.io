@@ -1,0 +1,36 @@
+p {
+    color: rgb(17, 0, 255);
+    }
+body {
+    background: #0471A6;
+    }
+h1 {
+    color: #FFCF56;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 10px dotted;  }
+
+
+a:hover {
+    text-decoration: underline #FFCF56;
+    transition: ease-in-out, 1.2s ;
+    color:#FFCF56;
+ }
+ 
+.images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.images img {
+    width: 250px;
+    opacity: .7;
+    height: 250px;
+    object-fit: cover;
+}
+.images img:hover {
+    opacity:1;
+    transform:scale(1.25);
+    transform:translateY(-25px);
+    box-shadow: 10px 10px 5px #FFCF56;
+}

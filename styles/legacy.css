@@ -1,0 +1,22 @@
+p {
+    color: rgb(17, 0, 255);
+    }
+body {
+    background: #0471A6;
+    }
+h1 {
+    color: #FFCF56;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 10px dotted;  }
+
+
+a:hover {
+    text-decoration: underline #FFCF56;
+    transition: ease-in-out, 1.2s ;
+    color:#FFCF56;
+ }
+
+ .hidden {
+    display: none;
+ }

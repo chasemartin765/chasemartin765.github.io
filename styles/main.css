@@ -12,18 +12,16 @@ body {
   padding: 1em;
   width:42%;
 }
-
+.font {
+  font-style: italic;
+  font-size: 1.5em;
+  color:navy
+}
 h1 {
   color: #FFCF56;
   font-size: 3em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   border-bottom: 10px dotted;  }
-  
-h2 {
-  font-style: italic;
-  font-size: 1.5em;
-  color:navy
-}
 
 a:hover {
    text-decoration: underline #FFCF56;
@@ -60,3 +58,18 @@ ol > li {
 div{
     display: flex;
   }
+#steph{
+  color:#FFCF56
+}
+#steph:hover{
+  color:#0471A6;
+  background: #FFCF56;
+}
+.align{
+  display: flex;
+  align-items: center;
+}
+
+li:first-child{
+  font-style: italic;
+}
